@@ -2,7 +2,7 @@
 #'
 #' Full Conformal Prediction
 #'
-#'  @export
+#' @export
 #'
 cfm_prediction_lm <- function(dat, fml = "y ~ x") {
     rst <- lm(as.formula(fml), data = dat)
@@ -14,7 +14,7 @@ cfm_prediction_lm <- function(dat, fml = "y ~ x") {
 #'
 #' Full Conformal for Single X and Y
 #'
-#'  @export
+#' @export
 #'
 cfm_prediction_xy_single <- function(y, x, dat,
                                      fml     = "y ~ x",
@@ -53,7 +53,7 @@ cfm_prediction_xy_single <- function(y, x, dat,
 #'
 #' All Scores
 #'
-#'  @export
+#' @export
 #'
 cfm_prediction_xy <- function(vec_y, ...,
                               f_pred = cfm_prediction_xy_single,

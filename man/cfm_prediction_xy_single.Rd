@@ -16,6 +16,3 @@ cfm_prediction_xy_single(
 \description{
 Full Conformal for Single X and Y
 }
-\details{
-@export
-}

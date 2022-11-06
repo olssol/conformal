@@ -9,6 +9,3 @@ cfm_prediction_lm(dat, fml = "y ~ x")
 \description{
 Full Conformal Prediction
 }
-\details{
-@export
-}

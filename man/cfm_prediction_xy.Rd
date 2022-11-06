@@ -9,6 +9,3 @@ cfm_prediction_xy(vec_y, ..., f_pred = cfm_prediction_xy_single, n_core = 1)
 \description{
 All Scores
 }
-\details{
-@export
-}
