@@ -60,7 +60,6 @@ cfm_prediction_xy <- function(vec_y, ...,
                               n_core = 1) {
     rst <- parallel::mclapply(vec_y,
                               function(y) {
-                                  print(y)
                                   f_pred(y, ...)
                               },
                               mc.cores = n_core)
