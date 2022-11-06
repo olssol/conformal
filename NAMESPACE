@@ -3,6 +3,8 @@
 export(cfm_score_abs)
 export(cfm_score_interval)
 export(cfm_simu_dta_1)
+export(cfm_simu_skew)
+export(cfm_simu_y)
 import(ggplot2)
 import(methods)
 import(stats)

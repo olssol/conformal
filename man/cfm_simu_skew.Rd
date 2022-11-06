@@ -9,6 +9,3 @@ cfm_simu_skew(n, mu, sig, eta, seed = NULL)
 \description{
 Simulate skew random variable
 }
-\details{
-@export
-}

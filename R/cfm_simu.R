@@ -2,7 +2,7 @@
 #'
 #' Simulate skew random variable
 #'
-#'  @export
+#' @export
 #'
 cfm_simu_skew <- function(n, mu, sig, eta, seed = NULL) {
 
@@ -25,7 +25,7 @@ cfm_simu_skew <- function(n, mu, sig, eta, seed = NULL) {
 #'
 #' Simulate Y given x and formula
 #'
-#'  @export
+#' @export
 #'
 cfm_simu_y <- function(x, eps = 0,
                        par_beta = rep(1, 5),

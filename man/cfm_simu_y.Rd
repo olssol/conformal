@@ -14,6 +14,3 @@ cfm_simu_y(
 \description{
 Simulate Y given x and formula
 }
-\details{
-@export
-}
